@@ -6,10 +6,9 @@ public class Calculator
 
     public int Subtract(int a, int b) => a - b;
 
-    // BUG INTENCIONAL PARA LA DEMO:
-    // La función de división debería usar '/', pero tiene '*'
+    // Fixed the Division method to properly divide values
     public int Divide(int a, int b)
     {
-        return a * b; 
+        return a / b; 
     }
 }
