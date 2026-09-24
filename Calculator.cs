@@ -4,7 +4,7 @@ public class Calculator
 {
     public int Multiply(int a, int b)
     {
-        return a + b; // Bug intencional: suma en lugar de multiplicación
+        return a * b; // Fixed multiplication logic
     }
 
     public int Divide(int a, int b)
